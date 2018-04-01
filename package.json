@@ -1,0 +1,38 @@
+{
+  "name": "tshark",
+  "version": "0.0.1",
+  "description": "Node.js wrapper for tshark",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "doc": "typedoc --out docs src",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goroya/node-tshark.git"
+  },
+  "author": "goroya.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goroya/node-tshark/issues"
+  },
+  "homepage": "https://github.com/goroya/node-tshark#readme",
+  "devDependencies": {
+    "@types/debug": "0.0.30",
+    "@types/eventemitter2": "^4.1.0",
+    "@types/node": "^9.6.1",
+    "jest": "^22.4.3",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "typedoc": "^0.11.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "eventemitter2": "^5.0.1"
+  }
+}
